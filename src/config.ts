@@ -12,7 +12,7 @@ export const gift = {
     'Cảm ơn mẹ vì đã luôn là mẹ của con.',
     'Con yêu mẹ rất nhiều. ❤️',
   ],
-  signature: 'Con trai của mẹ ❤️',
+  signature: 'Con trai của mẹ "Anh Thông" ❤️',
   finalTitle: 'Chúc mẹ một ngày 20/10 thật hạnh phúc!',
   finalMessage: 'Ngày nào con cũng mong mẹ luôn bình an, khỏe mạnh và mỉm cười thật nhiều.',
   hugMessage: 'Con yêu mẹ nhiều lắm! ❤️',
