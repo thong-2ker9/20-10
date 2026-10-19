@@ -1,3 +1,4 @@
+const base = import.meta.env.BASE_URL;
 export const gift = {
   title: 'Gửi Mẹ Yêu',
   intro: 'Một món quà nhỏ dành riêng cho mẹ, nhân ngày 20/10.',
@@ -17,10 +18,10 @@ export const gift = {
   hugMessage: 'Con yêu mẹ nhiều lắm! ❤️',
   extraNote: 'Dù con có lớn đến đâu, nhà vẫn luôn là nơi có mẹ. Cảm ơn mẹ vì tất cả. ❤️',
   galleryPhotos: [
-    { src: '/images/me-cuoi-cuon.png', alt: 'Mẹ cười thật tươi ôm hai cậu con trai', caption: 'Ảnh gia đình' },
-    { src: '/images/me-tai-ban.png', alt: 'Mẹ ngồi làm việc tại bàn', caption: 'Nụ cười của Mẹ:))))' },
-    { src: '/images/gia-dinh-trung-tam.png', alt: 'Cả gia đình chụp ảnh chung ở trung tâm thương mại', caption: 'Một khoảnh khắc bên nhau' },
-    { src: '/images/ky-niem-qua-20-10.png', alt: 'Kỷ niệm tặng mẹ hoa và quà nhân ngày 20/10', caption: 'Kỷ niệm con yêu thích' },
+    { src: '${base}/images/me-cuoi-cuon.png', alt: 'Mẹ cười thật tươi ôm hai cậu con trai', caption: 'Ảnh gia đình' },
+    { src: '${base}/images/me-tai-ban.png', alt: 'Mẹ ngồi làm việc tại bàn', caption: 'Nụ cười của Mẹ:))))' },
+    { src: '${base}/images/gia-dinh-trung-tam.png', alt: 'Cả gia đình chụp ảnh chung ở trung tâm thương mại', caption: 'Một khoảnh khắc bên nhau' },
+    { src: '${base}/images/ky-niem-qua-20-10.png', alt: 'Kỷ niệm tặng mẹ hoa và quà nhân ngày 20/10', caption: 'Kỷ niệm con yêu thích' },
   ],
   musicSrc: '/music.mp3',
 } as const;
