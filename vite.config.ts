@@ -48,6 +48,7 @@ function vitePluginStorageProxy(): Plugin {
 }
 
 export default defineConfig({
+  base: '/20-10/',
   plugins: [vitePluginStorageProxy(), react()],
   server: {
     host: '0.0.0.0',
