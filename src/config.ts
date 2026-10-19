@@ -10,7 +10,7 @@ export const gift = {
     'Con cảm ơn mẹ vì đã luôn yêu thương, chăm sóc và dành cho con những điều tốt đẹp nhất. Có những điều con không thường xuyên nói ra, nhưng con luôn trân trọng những hy sinh và tình yêu mà mẹ dành cho gia đình.',
     'Con mong mẹ lúc nào cũng có thật nhiều lý do để mỉm cười, luôn được yêu thương và có những ngày thật nhẹ nhàng, hạnh phúc.',
     'Cảm ơn mẹ vì đã luôn là mẹ của con.',
-    'Con yêu mẹ rất nhiều. ❤️',
+    'Con yêu mẹ nhiều. ❤️',
   ],
   signature: 'Con trai của mẹ "Anh Thông" ❤️',
   finalTitle: 'Chúc mẹ một ngày 20/10 thật hạnh phúc!',
@@ -18,10 +18,26 @@ export const gift = {
   hugMessage: 'Con yêu mẹ nhiều lắm! ❤️',
   extraNote: 'Dù con có lớn đến đâu, nhà vẫn luôn là nơi có mẹ. Cảm ơn mẹ vì tất cả. ❤️',
   galleryPhotos: [
-    { src: '${base}/images/me-cuoi-cuon.png', alt: 'Mẹ cười thật tươi ôm hai cậu con trai', caption: 'Ảnh gia đình' },
-    { src: '${base}/images/me-tai-ban.png', alt: 'Mẹ ngồi làm việc tại bàn', caption: 'Nụ cười của Mẹ:))))' },
-    { src: '${base}/images/gia-dinh-trung-tam.png', alt: 'Cả gia đình chụp ảnh chung ở trung tâm thương mại', caption: 'Một khoảnh khắc bên nhau' },
-    { src: '${base}/images/ky-niem-qua-20-10.png', alt: 'Kỷ niệm tặng mẹ hoa và quà nhân ngày 20/10', caption: 'Kỷ niệm con yêu thích' },
+    {
+      src: `${base}images/me-cuoi-cuon.png`,
+      alt: 'Mẹ cười thật tươi ôm hai cậu con trai',
+      caption: 'Ảnh gia đình',
+    },
+    {
+      src: `${base}images/me-tai-ban.png`,
+      alt: 'Mẹ ngồi làm việc tại bàn',
+      caption: 'Nụ cười của Mẹ:))))',
+    },
+    {
+      src: `${base}images/gia-dinh-trung-tam.png`,
+      alt: 'Cả gia đình chụp ảnh chung ở trung tâm thương mại',
+      caption: 'Một khoảnh khắc bên nhau',
+    },
+    {
+      src: `${base}images/ky-niem-qua-20-10.png`,
+      alt: 'Kỷ niệm tặng mẹ hoa và quà nhân ngày 20/10',
+      caption: 'Kỷ niệm con yêu thích',
+    },
   ],
   musicSrc: '/music.mp3',
 } as const;
